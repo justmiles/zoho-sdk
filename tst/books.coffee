@@ -1,6 +1,6 @@
-{Books} = require '../index'
+ZohoSDK = require '../index'
 
-books = new Books()
+books = new ZohoSDK.Books()
 
 books.listTimeEntries 
   filter_by: 'Date.ThisWeek'
