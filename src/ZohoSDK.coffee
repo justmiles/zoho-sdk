@@ -1,5 +1,5 @@
 request = require 'request'
-log = require('debug-logger')('zoho-sdk')
+
 class ZohoSDK
   constructor: (config = {}) ->
     @log = require('debug-logger')('zoho-sdk')
